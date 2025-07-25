@@ -1,0 +1,16 @@
+Just replace the path and file name as you need
+
+cd Challenge_1b
+python -m venv venv
+venv/scripts/activate
+pip install -r requirements.txt
+eg.- 
+
+for collection1
+command : python main.py --input_dir Collection1/PDFs --output_dir output --input_file Collection1/challenge1b_input.json --output_file challenge1b_output_c1_calc.json
+
+For collection2
+command : python main.py --input_dir Collection2/PDFs --output_dir output --input_file Collection2/challenge1b_input.json --output_file challenge1b_output_c2_calc.json
+
+for collection3
+command : python main.py --input_dir Collection3/PDFs --output_dir output --input_file Collection3/challenge1b_input.json --output_file challenge1b_output_c3_calc.json

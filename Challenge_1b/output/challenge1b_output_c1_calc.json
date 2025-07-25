@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner specializing in group travel for young adults",
+    "job_to_be_done": "Plan a 4-day budget-friendly trip for 10 college friends including accommodation, activities, and dining options",
+    "processing_timestamp": "2025-07-25T19:53:29.896192"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Tips and Tricks for Packing",
+      "importance_rank": 1,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "City Exploration",
+      "importance_rank": 2,
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Outdoor Adventures",
+      "importance_rank": 3,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Family -Friendly Activities",
+      "importance_rank": 4,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Family -Friendly Hotels",
+      "importance_rank": 5,
+      "page_number": 9
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "joining a guided tour to avoid drinking and driving. Tips and Tricks for Packing \u2022 Check the Weather: Check the forecast before packing to ensure appro priate clothing.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Make a Packing List: Create a list to ensure nothing is forgotten. Cross o\ufb00 items as you pack. \u2022 Use Packing Cubes: Organize clothes and maximize space.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Roll Your Clothes: Save space and reduce wrinkles. \u2022 Pack Dual -Purpose Items: Choose item s that serve multiple purposes. Wear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase space.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Additional Ti ps: Wear moisture -wicking clothing and sturdy hiking boots. Bring a map and compass or GPS device. Pack energy bars or snacks for long hikes.",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "City Exploration \u2022 Day Bag: A small, secure day bag for carrying essentials like water, snacks, and a camera. \u2022 Comfortable Shoes: Wear comfortable walking shoes for exploring cities. Guidebook: A guidebook or map to help navigate and find points of interest.",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "\u2022 Additional Tips: Use a money belt or hidden pouch to keep valuables safe. Consider using public transportati on to explore cities e\ufb03ciently. Wine Tours \u2022 Comfortable Clothing:",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Toulouse: Visit the Cit\u00e9 de l'Espace, a space -themed science museum with interactive exhibits. Outdoor Adventures \u2022 Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge. \u2022 Camargue Natural Park:",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Explore wetlands with wild horses and flamingos, and enjoy horseback riding, bird watching, and boat tours. \u2022 Various Locations: Try tree -top adventure parks with zip lines, rope bridges, and climbing challenges. \u2022 Gorges du Tarn: Go on a family -friendly hike and enjoy the scenic views.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Lake Annecy: Rent bikes and ride along the lake's picturesque bike paths. \u2022 Pyrenees: Take a cable car ride for stunning mountain views and easy hiking trails. \u2022 Dordogne: Explore the region's caves and pr ehistoric sites with guided tours suitable for children.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Family -Friendly Activities The South of France o\ufb00ers a variety of activities that are perfect for families with children: Theme Parks and Attractions \u2022 Antibes: Visit Marineland for marine shows and an aquarium. Fr\u00e9jus: Cool o\ufb00 at Aqualand water park.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Villeneuve -Loubet: Enjoy quirky attractions at Le Village des Fous. Monteux: Spend a day at Parc Spirou, a theme park based on the famous comic book character. \u2022 La Palmyre: Explore the La Palmyre Zoo, home to a wide variety of animals.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Cap d'Agde: Have fun at Luna Park, an amusement park with rides and games. Toulouse: Visit the Cit\u00e9 de l'Espace, a space -themed science museum with interactive exhibits. Outdoor Adventures \u2022 Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Family -Friendly Hotels \u2022 Club Med Opio en Provence (Opio): A family -friendly resort o\ufb00ering a wide range of activities for children and adults, including sports, entertainment, and kids' clubs. The beautiful setting and al l-inclusive amenities make it a hassle -free vacation spot.",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "\u2022 Le Mas de Pierre (Saint -Paul -de-Vence): A luxurious family -friendly hotel o\ufb00ering spacious rooms, beautiful gardens, and a variety of activities for children. The elegant decor and attentive servi ce ensure a comfortable stay for families. \u2022 H\u00f4tel Les Roches Rouges (Saint -Rapha\u00ebl):",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "A family -friendly hotel located on the beach, o\ufb00ering comfortable rooms, a kids' club, and a variety of water sports. The beachfront location and family -oriented amenities make it a great choice for a seaside vacation. \u2022 Ch\u00e2teau de Berne (Lorgues):",
+      "page_number": 9
+    }
+  ]
+}

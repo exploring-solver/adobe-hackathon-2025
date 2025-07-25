@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "processing_timestamp": "2025-07-25T20:02:03.483727"
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Kartoffelsalat (Pota to Salad)",
+      "importance_rank": 1,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Gyeran Jjim",
+      "importance_rank": 2,
+      "page_number": 15
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Cottage Cheese and Veggie Bowl",
+      "importance_rank": 3,
+      "page_number": 16
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Carrot Salad",
+      "importance_rank": 4,
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Albondig as",
+      "importance_rank": 5,
+      "page_number": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "Kartoffelsalat (Pota to Salad) \u2022 Ingredients : o 4 potatoes o 1 small onion o 1/4 cup bacon o 1/4 cup vinegar o 1/4 cup chicken broth o 1 tablespoon mustard o 1 teaspoon sugar o 1 teaspoon salt o 1/2 teaspoon pepper",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Gyeran Jjim \u2022 Ingredients : o 4 eggs o 1 cup water o 1/4 cup green onions o 1 teaspoon salt o 1/2 teaspoon sesame oil \u2022 Instructions : o Beat eggs with water, salt, and chopped green onions. o Pour mixture into a he atproof bowl. o Steam for 10 -15 minutes until set.",
+      "page_number": 15
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "o Drizzle with sesame oil and serve warm. Harira \u2022 Ingredients :",
+      "page_number": 15
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Cottage Cheese and Veggie Bowl Ingredients: \u2022 1 cup cottage cheese \u2022 1/4 cup diced cucumber \u2022 1/4 cup cherry tomatoes, halved \u2022 1/4 cup diced bell pepper \u2022 Salt and pepper to taste Instructions: \u2022 In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. \u2022 Season with salt and pepper.",
+      "page_number": 16
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "Carrot Salad \u2022 Ingredients : o 4 carrots o 1/4 cup raisins o 1/4 cup parsley o 1/4 cup lemon juice o 1/4 cup olive oil o 1 teaspoon cumin o 1 teaspoon salt \u2022 Instructions : o Grate carrots and mix with raisins and chopped parsley. o Whisk lemon juice, olive oil, cum in, and salt, then pour over salad.",
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Add salt to taste and serve. Albondig as \u2022 Ingredients : o 1/2 pound ground beef o 1/2 pound ground pork o 1 small onion o 2 cloves garlic o 1/4 cup breadcrumbs o 1 egg o 1 teaspoon paprika o 1 teaspoon salt o 1/2 teaspoon pepper o 1/4 cup olive oil o 1 cup tomato sauce \u2022 Instructions : o Mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, beaten",
+      "page_number": 3
+    }
+  ]
+}

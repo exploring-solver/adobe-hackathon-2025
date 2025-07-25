@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-25T20:01:18.918720"
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Advanced authoring:",
+      "importance_rank": 1,
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in interactive forms",
+      "importance_rank": 2,
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Interactive  form",
+      "importance_rank": 3,
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Validate  documents",
+      "importance_rank": 4,
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "section_title": "Administer AI Assistant for enterprises",
+      "importance_rank": 5,
+      "page_number": 16
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Advanced Authoring can be enabled by selecting the toggle in the upper right corner. Advanced authoring: \u2022 Allows access to all field types (highlighted in yellow) \u2022 Supports form field detection (highlighted in green) \u2022 Supports Prefill fields (highlighted in pink) \u2022 Supports field assignment (highlighted in purple and pink) \u2022 Supports field validation",
+      "page_number": 14
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "or with the Fill & Sign tool. These non-interactive forms are called flat forms. Fill in interactive forms An interactive form contains fields that you can select or fill in.",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "If necessary, select either the Hand Tool or the Select Tool from the context menu of the page (right-click on the page to open the context menu). The pointer changes to a different icon as you move it over a field. For example, the Hand tool changes to an I -beam when you can type text into the form field.",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Some text fields are dynamic, meaning that they automatically resize to accommodate the amount of data you enter and can span across pages.",
+      "page_number": 8
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool to fill in flat forms. Interactive form To create an interactive form , use the Prepare Forms tool.",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "See Create a form from an existing document . Flat form To enable the Fill & Sign tools, from the hamburger menu ( File menu in macOS) choose Save As Other > Acrobat Reader Extended PDF > Enable More Tools (includes Form Fill-in & Save) . The tools are enabled for the current form only.",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "When you create a different form, redo this task to enable Acrobat Reader users to use the tools.",
+      "page_number": 12
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "authenticity with or without seeing a visible signature on the page \u2022 Automatically embed certificate data to support long -term validation Validate documents \u2022 Validate all signatures, confirming the identity of everyone who signed the document \u2022 Validate document integrity by tracking all previously signed versions of a document to verify changes made during the document\u2019s lifecycle",
+      "page_number": 20
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "If your request is denied, you'll receive an email explaining why. Once declined, you can re - request AI Assistant for Acrobat from your organization. Administer AI Assistant for enterprises Adobe's AI Assistant for enterprises extends generative AI features to Acrobat on the web, mobile, and desktop platforms.",
+      "page_number": 16
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "It provides centralized license management and enterprise-level technical support for adequate user support at scale.",
+      "page_number": 16
+    }
+  ]
+}

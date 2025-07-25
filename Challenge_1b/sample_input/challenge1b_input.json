@@ -1,0 +1,22 @@
+{
+  "challenge_info": {
+    "challenge_id": "custom_pdf_test",
+    "test_case_name": "my_pdf_test",
+    "description": "Test with my own PDFs"
+  },
+  "documents": [
+    {"filename": "South of France - Cities.pdf", "title": "Cities"},
+    {"filename": "South of France - Cuisine.pdf", "title": "Cuisine"},
+    {"filename": "South of France - History.pdf", "title": "History"},
+    {"filename": "South of France - Restaurants and Hotels.pdf", "title": "Restaurants and Hotels"},
+    {"filename": "South of France - Things to Do.pdf", "title": "Things to Do"},
+    {"filename": "South of France - Tips and Tricks.pdf", "title": "Tips and Tricks"},
+    {"filename": "South of France - Traditions and Culture.pdf", "title": "Traditions and Culture"}
+  ],
+  "persona": {
+    "role": "Travel Planner specializing in group travel for young adults"
+  },
+  "job_to_be_done": {
+    "task": "Plan a 4-day budget-friendly trip for 10 college friends including accommodation, activities, and dining options"
+  }
+}
