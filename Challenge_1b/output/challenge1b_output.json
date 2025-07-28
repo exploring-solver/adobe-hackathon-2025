@@ -1,0 +1,346 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-27T01:34:14.554119",
+    "model_info": {
+      "sentence_transformer": "all-MiniLM-L6-v2",
+      "spacy_model": "en_core_web_sm",
+      "multilingual_support": false
+    },
+    "performance_metrics": {
+      "total_sections_found": 126,
+      "sections_after_filtering": 126,
+      "concept_graph_nodes": 126,
+      "concept_graph_edges": 5260
+    }
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 1,
+      "page_number": 1,
+      "relevance_score": 0.5771,
+      "accessibility_tags": [
+        "h1"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 2,
+      "page_number": 1,
+      "relevance_score": 0.5424,
+      "accessibility_tags": [
+        "h1"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Cooki ng Classes",
+      "importance_rank": 3,
+      "page_number": 5,
+      "relevance_score": 0.5163,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Key Attractions",
+      "importance_rank": 4,
+      "page_number": 3,
+      "relevance_score": 0.519,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Language and Literature",
+      "importance_rank": 5,
+      "page_number": 2,
+      "relevance_score": 0.4963,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing, Planning, and Exploring Introduction Planning a trip to the South of France requires thoughtful preparation to ensure a comfortable and enjoyable experience. This guide covers everything from packing essentials to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with kids, or in a group, this guide will help you make the most of your trip.",
+      "page_number": 1,
+      "relevance_score": 0.6811549663543701,
+      "accessibility_tags": [
+        "h1"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Comprehensive Guide to Restaurants and Hotels in the South of France Introduction The South of France, known for its stunning landscapes, rich cultural heritage, and exquisite cuisine, is a dream destination for travelers. From the glamorous beaches of the French Riviera to the charming villages of Provence, this region oﬀers a diverse array of experiences. Whether you're looking for budget -friendly options, family -friendly spots, upscale dining, or luxurious experiences, this guide will help you find t he perfect restaurants and hotels for your trip.",
+      "page_number": 1,
+      "relevance_score": 0.5924813747406006,
+      "accessibility_tags": [
+        "h1"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Lyon : Discover the secrets of Lyonnaise cuisine with a hands -on cooking class. • Sarlat : Join a foie gras workshop and learn to prepare this delicacy.",
+      "page_number": 5,
+      "relevance_score": 0.6868184804916382,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Nice : Take a class to master Niçoise cuisine, including dishes like salade niçoise and socca. Toulouse : Learn to cook regional specialties such as cassoulet. • Marseille : Participate in a seafood cooking class to make dishes like bouillabaisse.",
+      "page_number": 5,
+      "relevance_score": 0.6488277912139893,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "• Bordeaux : Take a day trip to the world-renowned wine region and visit its prestigious châteaux. Cooki ng Classes • Provence : Learn to prepare traditional dishes like ratatouille and bouillabaisse. • Périgord : Join a truﬄe hunting tour followed by a cooking class.",
+      "page_number": 5,
+      "relevance_score": 0.6453937888145447,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Key Attractions • Old Port (Vieux -Port) : The heart of Marseille, the Old Port has been a bustling harbor for over 2,600 year s. Today, it is a lively area filled with cafes, restaurants, and markets.",
+      "page_number": 3,
+      "relevance_score": 0.6665236949920654,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "The city hosts several festivals throughout the year, including the Festival de Marseille, which celeb rates contemporary dance, theater, and music.",
+      "page_number": 3,
+      "relevance_score": 0.6581259965896606,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "• Fish Market at the Old Port : Visit the fish market at the Old Port to experience the local seafood culture. • Street Art in Cours Julien : Explore the vibrant street art sc ene in the Cours Julien district. Cultural Highlights Marseille is known for its vibrant arts scene, with numerous galleries, theaters, and music venues.",
+      "page_number": 3,
+      "relevance_score": 0.6571173071861267,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Fête de la Musique Celebrated on June 21st, the Fête de la Musique is a nationwide music festival that or iginated in France. In the South of France, cities and towns come alive with music, as both amateur and professional musicians perform in streets, squares, and parks. The festival promotes a diverse range of musical genres and encourages community particip ation.",
+      "page_number": 2,
+      "relevance_score": 0.645283579826355,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Their works often celebrated chivalry, love, and nature. The region's literary heritage also includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Provençal life. Festivals and Celebrations Carnival of Nice Held in Nice from mid -February to early March, the Carnival of Nice is one of the most famous and oldest carnivals in the world.",
+      "page_number": 2,
+      "relevance_score": 0.6273117065429688,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Eﬀorts to revive and promote the language continue, with festivals and educational programs dedicated to its preservation. Literature and Poetry The South of France has inspired many writers and poets over the centuries. The troubadours of the medieval period, who composed and performed lyrical poetry, were particularly influ ential.",
+      "page_number": 2,
+      "relevance_score": 0.6189340353012085,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": []
+    }
+  ],
+  "advanced_features": {
+    "concept_insights": {
+      "central_sections": [
+        {
+          "section_id": "South of France - Cuisine.pdf_6_Culinary Experiences",
+          "centrality_score": 0.0141,
+          "title": "Culinary Experiences"
+        },
+        {
+          "section_id": "South of France - Cuisine.pdf_3_Famous Dishes",
+          "centrality_score": 0.0095,
+          "title": "Famous Dishes"
+        },
+        {
+          "section_id": "South of France - Restaurants and Hotels.pdf_9_Family -Friendly Hotels",
+          "centrality_score": 0.0085,
+          "title": "Family -Friendly Hotels"
+        }
+      ],
+      "connected_clusters": {
+        "largest_cluster_size": 126,
+        "total_clusters": 1,
+        "cluster_descriptions": [
+          "Cluster 1: 126 interconnected sections"
+        ]
+      }
+    },
+    "explainability": {
+      "selection_criteria": {
+        "persona_match": "Sections ranked by semantic similarity to persona expertise",
+        "job_alignment": "Prioritized sections that directly support the job-to-be-done",
+        "structural_importance": "Considered cross-references and document structure",
+        "content_quality": "Filtered for substantial, relevant content"
+      },
+      "section_explanations": [
+        {
+          "rank": 1,
+          "section": "Introduction",
+          "document": "South of France - Tips and Tricks.pdf",
+          "relevance_score": 0.5771371722221375,
+          "reasons": []
+        },
+        {
+          "rank": 2,
+          "section": "Introduction",
+          "document": "South of France - Restaurants and Hotels.pdf",
+          "relevance_score": 0.5424162149429321,
+          "reasons": []
+        },
+        {
+          "rank": 3,
+          "section": "Cooki ng Classes",
+          "document": "South of France - Things to Do.pdf",
+          "relevance_score": 0.5162842869758606,
+          "reasons": []
+        },
+        {
+          "rank": 4,
+          "section": "Key Attractions",
+          "document": "South of France - Cities.pdf",
+          "relevance_score": 0.5190432071685791,
+          "reasons": []
+        },
+        {
+          "rank": 5,
+          "section": "Language and Literature",
+          "document": "South of France - Traditions and Culture.pdf",
+          "relevance_score": 0.49625781178474426,
+          "reasons": [
+            "Contains technical content relevant to the task"
+          ]
+        }
+      ]
+    },
+    "cross_document_connections": [
+      {
+        "document1": "South of France - Cities.pdf",
+        "section1": "Conclusion",
+        "document2": "South of France - History.pdf",
+        "section2": "Conclusion",
+        "connection_strength": 0.5366,
+        "shared_concepts": 22
+      },
+      {
+        "document1": "South of France - Cities.pdf",
+        "section1": "Key Attractions",
+        "document2": "South of France - History.pdf",
+        "section2": "Key Historical Sites in Avignon",
+        "connection_strength": 0.44,
+        "shared_concepts": 33
+      },
+      {
+        "document1": "South of France - Cities.pdf",
+        "section1": "Key Attractions",
+        "document2": "South of France - History.pdf",
+        "section2": "Key Historical Sites in Montpellier",
+        "connection_strength": 0.4267,
+        "shared_concepts": 32
+      },
+      {
+        "document1": "South of France - Cities.pdf",
+        "section1": "Key Attractions",
+        "document2": "South of France - History.pdf",
+        "section2": "Montpellier: A University City with Medieval Charm",
+        "connection_strength": 0.4051,
+        "shared_concepts": 32
+      },
+      {
+        "document1": "South of France - Cities.pdf",
+        "section1": "Key Attractions",
+        "document2": "South of France - History.pdf",
+        "section2": "Aix-en-Provence: A City of Art and Culture",
+        "connection_strength": 0.3958,
+        "shared_concepts": 38
+      }
+    ],
+    "accessibility_summary": {
+      "content_types": {
+        "h1": 2,
+        "h3": 3,
+        "technical": 1
+      },
+      "accessibility_features": {
+        "heading_levels_present": [
+          "h1",
+          "h3"
+        ],
+        "technical_content_sections": 1,
+        "data_heavy_sections": 0
+      },
+      "structural_elements": {
+        "total_cross_references": 0,
+        "average_cross_refs_per_section": 0.0
+      },
+      "usability_notes": [
+        "Sections tagged with appropriate heading levels for screen readers",
+        "Technical content identified for specialized audience",
+        "Cross-references preserved for navigation context"
+      ]
+    }
+  }
+}
