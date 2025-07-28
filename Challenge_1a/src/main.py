@@ -202,6 +202,8 @@ def main(pdf_path, output, debug, language, round1a, preload, fast_mode, warmup,
         if debug:
             logger.info("Tip: Models remain in memory for faster subsequent processing")
             logger.info("Use processor.clear_caches() to free memory if needed")
+            
+        logger.info("NOTE: IF RUNNING INSIDE DOCKER WITH --RM, STARTUP MAY TAKE LONGER (>10 SECONDS) DUE TO COLD START. THIS INCLUDES MODEL LOADING, PYTHON ENVIRONMENT SETUP, SLOW DISK I/O ON WINDOWS, AND LACK OF CACHING BETWEEN RUNS.")
         
     except Exception as e:
         logger.error(f"Processing failed: {str(e)}")
@@ -296,7 +298,7 @@ def utils(model_info, clear_cache, benchmark, accessibility_check):
         click.echo(f"WCAG 2.1 AA: {'✓' if accessibility_data['compliance']['wcag_2.1_aa'] else '✗'}")
         click.echo(f"PDF/UA: {'✓' if accessibility_data['compliance']['pdf_ua'] else '✗'}")
         click.echo(f"Section 508: {'✓' if accessibility_data['compliance']['section_508'] else '✗'}")
-        
+         
         if accessibility_data['issues']:
             click.echo("\nIssues Found:")
             for issue in accessibility_data['issues']:

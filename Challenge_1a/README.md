@@ -37,8 +37,8 @@ This combination delivers both **speed** and **accuracy** - faster than pure AI 
 
 ```bash
 # 1. Clone the repository
-git clone <your-repository-url>
-cd pdf-heading-extractor
+git clone https://github.com/exploring-solver/adobe-hackathon-2025/tree/main
+cd Challenge_1a
 
 # 2. Create virtual environment
 python -m venv venv

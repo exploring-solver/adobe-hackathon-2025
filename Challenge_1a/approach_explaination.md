@@ -10,13 +10,13 @@ The system's core design principles are:
 
 ---
 
-## 🛠 Three-Stage Processing Pipeline
+## Three-Stage Processing Pipeline
 
 Our approach processes documents in a sequence designed to use the **fastest, most reliable methods first**, falling back to more computationally intensive analysis only when necessary.
 
 ---
 
-### ✅ Stage 1: Structural-First Analysis
+### Stage 1: Structural-First Analysis
 
 The system first attempts to extract headings using the PDF's built-in structural information, similar to how professional Adobe tools operate.
 
@@ -26,7 +26,7 @@ The system first attempts to extract headings using the PDF's built-in structura
 
 ---
 
-### 🔍 Stage 2: Heuristic Candidate Generation
+### Stage 2: Heuristic Candidate Generation
 
 If the PDF lacks a defined structure, the pipeline seamlessly transitions to a **heuristic engine**.
 
@@ -39,7 +39,7 @@ If the PDF lacks a defined structure, the pipeline seamlessly transitions to a *
 
 ---
 
-### 🧠 Stage 3: Semantic Verification (Lazy-Loaded)
+### Stage 3: Semantic Verification (Lazy-Loaded)
 
 For **ambiguous candidates** identified by the heuristic engine, a final semantic check is performed.
 
@@ -53,7 +53,7 @@ For **ambiguous candidates** identified by the heuristic engine, a final semanti
 
 ---
 
-## 💡 Key Technical Innovations
+## Key Technical Innovations
 
 - **Lazy-Loading Architecture**:  
   Our `LazyModelLoader` class ensures that the heavyweight transformer model does not impact **startup time or memory** unless it is explicitly needed.
@@ -69,7 +69,7 @@ For **ambiguous candidates** identified by the heuristic engine, a final semanti
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 In summary, our solution is an **efficient, hybrid system**. By prioritizing **structural data** and using **heuristics** as the primary analysis engine, we ensure **high speed**.  
 The strategic, lazy-loaded use of a **semantic model** adds a layer of intelligence for difficult cases **without compromising performance**, allowing us to meet the hackathon's objectives **effectively**.
