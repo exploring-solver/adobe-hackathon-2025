@@ -19,26 +19,26 @@ from src.models.embedding_model import EmbeddingModel
 import nltk
 from nltk.data import find
 
-print(">>> Checking nltk punkt availability...")
+#print(">>> Checking nltk punkt availability...")
 try:
     find('tokenizers/punkt/english.pickle')
-    print(">>> punkt found.")
+    #print(">>> punkt found.")
 except LookupError:
-    print(">>> punkt not found, downloading...")
+    #print(">>> punkt not found, downloading...")
     nltk.download('punkt', quiet=True)
-    print(">>> punkt downloaded.")
+    #print(">>> punkt downloaded.")
 
 # Clean, safe monkey-patch
 _old_find = nltk.data.find
 
 def patched_find(resource_name, *args, **kwargs):
     if 'punkt_tab' in resource_name:
-        print(f"⚠️ Suppressing missing resource '{resource_name}', substituting with 'tokenizers/punkt/english.pickle'")
+        #print(f"⚠️ Suppressing missing resource '{resource_name}', substituting with 'tokenizers/punkt/english.pickle'")
         return _old_find('tokenizers/punkt/english.pickle', *args, **kwargs)
     return _old_find(resource_name, *args, **kwargs)
 
 nltk.data.find = patched_find
-print(">>> Applied safe punkt_tab monkey patch.")
+#print(">>> Applied safe punkt_tab monkey patch.")
 
 #patch end
 

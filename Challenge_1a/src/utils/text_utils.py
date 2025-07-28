@@ -59,9 +59,10 @@ class TokenizerManager:
         if MECAB_AVAILABLE:
             try:
                 self.tokenizers['mecab'] = MeCab.Tagger('-Owakati')
-                self.logger.info("MeCab tokenizer initialized")
+                #self.logger.info("MeCab tokenizer initialized")
             except Exception as e:
-                self.logger.warning(f"Failed to initialize MeCab: {e}")
+                pass
+                #self.logger.warning(f"Failed to initialize MeCab: {e}")
     
     def _load_sentencepiece_models(self):
         """Load SentencePiece models for different languages."""
