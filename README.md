@@ -1,11 +1,3 @@
-You want me to take the detailed project READMEs you've provided and condense them into a single, smaller README file for the root of your project. This new README should be around 100-150 words and should summarize what you built for both challenges, link to the challenge folders, and credit the team members.
-
-I will use the content you provided to create this concise summary, focusing on the core purpose of each challenge's solution.
-
-Here is the condensed README:
-
------
-
 # Adobe Hackathon 2025: PDF Intelligence Suite
 
 This project contains our solution for the Adobe India Hackathon 2025, a comprehensive suite of tools designed to transform how we interact with PDFs.
