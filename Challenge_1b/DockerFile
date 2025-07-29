@@ -1,7 +1,7 @@
-# Use an official lightweight Python image
+# Official lightweight Python image
 FROM python:3.10-slim
 
-# Set environment variables
+# Set environment variables for caching and performance
 ENV PYTHONUNBUFFERED=1 \
     TRANSFORMERS_CACHE=/models/huggingface \
     HF_HOME=/models/huggingface \
@@ -12,19 +12,20 @@ ENV PYTHONUNBUFFERED=1 \
 # Create working directory
 WORKDIR /app
 
-# Install dependencies
+# Install system dependencies and Python requirements
 COPY requirements.txt .
-RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/* \
+RUN apt-get update && apt-get install -y \
+    git \
+ && rm -rf /var/lib/apt/lists/* \
  && pip install --upgrade pip \
- && pip install -r requirements.txt
+ && pip install --no-cache-dir -r requirements.txt
 
-# Download models and cache them
+# Pre-download and cache small models for offline use
 RUN python -m spacy download en_core_web_sm \
- && python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')" \
- && python -c "from transformers import AutoTokenizer, AutoModel; AutoTokenizer.from_pretrained('Qwen/Qwen2-0.5B'); AutoModel.from_pretrained('Qwen/Qwen2-0.5B')"
+ && python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 
-# Copy source files
+# Copy project source code into the container
 COPY . .
 
-# Set default command
+# Default command to run your main app
 CMD ["python", "main.py"]

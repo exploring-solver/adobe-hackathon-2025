@@ -1,0 +1,15 @@
+{
+  "processing_time_seconds": 19.12,
+  "documents_processed": 9,
+  "sections_extracted": 5,
+  "subsections_analyzed": 9,
+  "advanced_features_enabled": {
+    "concept_graph": true,
+    "accessibility_tagging": true,
+    "citation_analysis": true,
+    "cross_document_connections": true,
+    "explainability": true,
+    "multilingual": false,
+    "caching": false
+  }
+}

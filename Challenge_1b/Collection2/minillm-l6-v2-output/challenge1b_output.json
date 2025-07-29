@@ -1,0 +1,362 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+    "processing_timestamp": "2025-07-30T00:56:38.402223",
+    "model_info": {
+      "sentence_transformer": "all-MiniLM-L6-v2",
+      "spacy_model": "en_core_web_sm",
+      "multilingual_support": false
+    },
+    "performance_metrics": {
+      "total_sections_found": 92,
+      "sections_after_filtering": 92,
+      "concept_graph_nodes": 433,
+      "concept_graph_edges": 76753
+    }
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "User Guidelines",
+      "importance_rank": 1,
+      "page_number": 3,
+      "relevance_score": 0.2796,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Is the form fillable?",
+      "importance_rank": 2,
+      "page_number": 8,
+      "relevance_score": 0.2706,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Request signatures – Add recipients",
+      "importance_rank": 3,
+      "page_number": 2,
+      "relevance_score": 0.2444,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "section_title": "Note:  Allow  Embedded  high  privilege  JavaScript™  and Privileged  system  operations  only",
+      "importance_rank": 4,
+      "page_number": 5,
+      "relevance_score": 0.2219,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "Sharing Checklist for Real Estate Professionals",
+      "importance_rank": 5,
+      "page_number": 2,
+      "relevance_score": 0.262,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": [],
+      "citation_count": 0
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Generative AI features cannot replace advice provided by a qualified professional and do not form any such relationship (for example, an attorney- client relationship). Attributions When the AI Assistant analyzes a document, it identifies sentences most likely to support the answer to your question. Attribution can take the form of clickable citations or other helpful",
+      "page_number": 3,
+      "relevance_score": 0.19024315476417542,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "generative AI features for your team or org by contacting Adobe Customer Care. User Guidelines User Guidelines governing your access and use of Acrobat and Acrobat Reader generative AI features are found here. In addition, please always use your judgment to evaluate generated output and any source attributions.",
+      "page_number": 3,
+      "relevance_score": 0.17472060024738312,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Acrobat and Acrobat Reader generati ve AI features are built upon powerful, emerging large language model technologies that may generate outputs that are inaccurate or misleading, or otherwise reflect content that does not represent Adobe’s views. This is especially true if you try to use th ese features to generate outputs that are unrelated to your source document. Do not use generative AI features to seek legal, medical, financial, or other kinds of professional advice or any opinions, judgments, or recommendations without conducting your own independent consultation or research.",
+      "page_number": 3,
+      "relevance_score": 0.1095477044582367,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "These non-interactive forms are called flat forms. Fill in interactive forms An interactive form contains fields that you can select or fill in. If necessary, select either the Hand Tool or the Select Tool from the context menu of the page (right-click on the page to open the context menu).",
+      "page_number": 8,
+      "relevance_score": 0.11894091218709946,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill in PDF Forms Is the form fillable? Sometimes form creators don’t convert their PDFs to interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand or with the Fill & Sign tool.",
+      "page_number": 8,
+      "relevance_score": 0.057088956236839294,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "The pointer changes to a different icon as you move it over a field. For example, the Hand tool changes to an I -beam when you can type text into the form field. Some text fields are dynamic, meaning that they automatically resize to accommodate the amount of data you enter and can span across pages.",
+      "page_number": 8,
+      "relevance_score": 0.0505252406001091,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Optional: If you want to add more people just for information, use the Add CC button to add their email addresses to the CC list. Enter the desired information and do one of the following:",
+      "page_number": 2,
+      "relevance_score": 0.04555455595254898,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Request signatures – Add recipients 3. The Mail and Message fields are just like the ones you use for sending an email and appear to your recipients in the same way. Change the default text in the Subject & Message area as appropriate.",
+      "page_number": 2,
+      "relevance_score": 0.04441637545824051,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "import/export methodology operations on certified documents. Note: Allow Embedded high privilege JavaScript™ and Privileged system operations only for sources that you trust and work closely with. For example, use these options for your employer or service provider.",
+      "page_number": 5,
+      "relevance_score": 0.19142939150333405,
+      "accessibility_tags": [
+        "h3",
+        "technical"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Sharing Checklist for Real Estate Professionals In the real estate industry, sha ring documents efficiently is crucial for closing deals and keeping clients informed. Here's a tailored checklist to help you manage your PDF sharing needs. Real Estate Sharing Checklist • Open Your Property Document •",
+      "page_number": 2,
+      "relevance_score": 0.10998392105102539,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "• Set Permissions • Have you decided if clients can comment on the docume nt or just view it?",
+      "page_number": 2,
+      "relevance_score": 0.09840590506792068,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Have you launched Acrobat or Acrobat Reader and opened the property listing or contract you need to share? • Choose Your Sharing Method • Are you sharing via email, link, or a third -party app like Microsoft Teams or WhatsApp?",
+      "page_number": 2,
+      "relevance_score": 0.06678827852010727,
+      "accessibility_tags": [
+        "h3"
+      ],
+      "cross_references": []
+    }
+  ],
+  "advanced_features": {
+    "concept_insights": {
+      "central_sections": [
+        {
+          "section_id": "Learn Acrobat - Create and Convert_2.pdf_6_Attach Source File",
+          "centrality_score": 0.0022,
+          "title": "Attach Source File"
+        },
+        {
+          "section_id": "Learn Acrobat - Create and Convert_2.pdf_6_Create  Bookmarks",
+          "centrality_score": 0.0022,
+          "title": "Create  Bookmarks"
+        },
+        {
+          "section_id": "Learn Acrobat - Export_1.pdf_16_Multiple  html  pages",
+          "centrality_score": 0.002,
+          "title": "Multiple  html  pages"
+        }
+      ],
+      "connected_clusters": {
+        "largest_cluster_size": 431,
+        "total_clusters": 3,
+        "cluster_descriptions": [
+          "Cluster 1: 431 interconnected sections",
+          "Cluster 2: 1 interconnected sections",
+          "Cluster 3: 1 interconnected sections"
+        ]
+      }
+    },
+    "explainability": {
+      "selection_criteria": {
+        "persona_match": "Sections ranked by semantic similarity to persona expertise",
+        "job_alignment": "Prioritized sections that directly support the job-to-be-done",
+        "structural_importance": "Considered cross-references and document structure",
+        "content_quality": "Filtered for substantial, relevant content"
+      },
+      "section_explanations": [
+        {
+          "rank": 1,
+          "section": "User Guidelines",
+          "document": "Learn Acrobat - Generative AI_1.pdf",
+          "relevance_score": 0.2795771360397339,
+          "reasons": []
+        },
+        {
+          "rank": 2,
+          "section": "Is the form fillable?",
+          "document": "Learn Acrobat - Fill and Sign.pdf",
+          "relevance_score": 0.27061742544174194,
+          "reasons": []
+        },
+        {
+          "rank": 3,
+          "section": "Request signatures – Add recipients",
+          "document": "Learn Acrobat - Request e-signatures_1.pdf",
+          "relevance_score": 0.2443544566631317,
+          "reasons": []
+        },
+        {
+          "rank": 4,
+          "section": "Note:  Allow  Embedded  high  privilege  JavaScript™  and Privileged  system  operations  only",
+          "document": "Learn Acrobat - Request e-signatures_2.pdf",
+          "relevance_score": 0.22185280919075012,
+          "reasons": [
+            "Contains technical content relevant to the task"
+          ]
+        },
+        {
+          "rank": 5,
+          "section": "Sharing Checklist for Real Estate Professionals",
+          "document": "The Ultimate PDF Sharing Checklist.pdf",
+          "relevance_score": 0.26197367906570435,
+          "reasons": []
+        }
+      ]
+    },
+    "cross_document_connections": [
+      {
+        "document1": "Learn Acrobat - Edit_1.pdf",
+        "section1": "Undo text in Acrobat",
+        "document2": "Learn Acrobat - Edit_2.pdf",
+        "section2": "Extract random pages from a PDF",
+        "connection_strength": 0.25,
+        "shared_concepts": 6
+      },
+      {
+        "document1": "Learn Acrobat - Create and Convert_1.pdf",
+        "section1": "Create a blank PDF",
+        "document2": "Learn Acrobat - Edit_2.pdf",
+        "section2": "Edit a scanned document",
+        "connection_strength": 0.225,
+        "shared_concepts": 9
+      },
+      {
+        "document1": "Learn Acrobat - Create and Convert_1.pdf",
+        "section1": "Convert Visio files",
+        "document2": "Learn Acrobat - Create and Convert_2.pdf",
+        "section2": "Convert AutoCAD files when AutoCAD is installed",
+        "connection_strength": 0.2222,
+        "shared_concepts": 12
+      },
+      {
+        "document1": "Learn Acrobat - Edit_1.pdf",
+        "section1": "Redo text in Acrobat",
+        "document2": "Learn Acrobat - Edit_2.pdf",
+        "section2": "Extract random pages from a PDF",
+        "connection_strength": 0.2222,
+        "shared_concepts": 6
+      },
+      {
+        "document1": "Learn Acrobat - Share_1.pdf",
+        "section1": "Add name or email to invite",
+        "document2": "The Ultimate PDF Sharing Checklist.pdf",
+        "section2": "Real Estate Sharing Checklist",
+        "connection_strength": 0.2222,
+        "shared_concepts": 6
+      }
+    ],
+    "accessibility_summary": {
+      "content_types": {
+        "h3": 5,
+        "technical": 1
+      },
+      "accessibility_features": {
+        "heading_levels_present": [
+          "h3"
+        ],
+        "technical_content_sections": 1,
+        "data_heavy_sections": 0
+      },
+      "structural_elements": {
+        "total_cross_references": 0,
+        "average_cross_refs_per_section": 0.0
+      },
+      "usability_notes": [
+        "Sections tagged with appropriate heading levels for screen readers",
+        "Technical content identified for specialized audience",
+        "Cross-references preserved for navigation context"
+      ]
+    }
+  }
+}

@@ -23,7 +23,7 @@ try:
     NLTK_AVAILABLE = True
 except ImportError:
     NLTK_AVAILABLE = False
-    logging.warning("NLTK not available, some text processing features will be limited")
+    #logging.warning("NLTK not available, some text processing features will be limited")
 
 # SentencePiece imports for better CJK tokenization
 try:
